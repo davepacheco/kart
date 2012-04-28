@@ -1,0 +1,19 @@
+{
+	"name": "kart",
+	"version": "0.0.1",
+	"description": "mario kart 64 analytics",
+	"main": "./lib/kart.js",
+	"private": true,
+	
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/davepacheco/node-mariokart.git"
+	},
+
+	"dependencies": {
+		"bunyan": "0.7.0",
+		"restify": "1.4.1"
+	},
+
+	"engines": [ "node >=0.6.0" ]
+}
