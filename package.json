@@ -12,6 +12,8 @@
 
 	"dependencies": {
 		"bunyan": "0.7.0",
+		"extsprintf": "1.0.0",
+		"jsprim": "0.0.2",
 		"restify": "1.4.1"
 	},
 
