@@ -14,7 +14,8 @@
 		"bunyan": "0.7.0",
 		"extsprintf": "1.0.0",
 		"jsprim": "0.0.2",
-		"restify": "1.4.1"
+		"restify": "1.4.1",
+		"verror": "1.1.0"
 	},
 
 	"engines": [ "node >=0.6.0" ]
