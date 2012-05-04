@@ -1,0 +1,84 @@
+/*
+ * kart.css: CSS styles
+ */
+
+/*
+ * General rules.
+ */
+
+html, body {
+	font-family: sans-serif;
+	font-size: small;
+	color: #000044;
+	margin: 0;
+	padding: 0;
+}
+
+tr {
+	vertical-align: top;
+}
+
+div.kBody {
+	position: absolute;
+	width: 100%;
+	min-height: 100%;
+	background-image: url('../img/StartScreen-light.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+/*
+ * Reusable page blocks.
+ */
+
+.kHeader {
+	font-size: x-large;
+	font-weight: bold;
+	margin-right: 30px;
+	text-shadow: 1px 1px 1px #cccccc;
+}
+
+.kSubHeader {
+	font-size: large;
+	font-weight: bold;
+	margin-right: 30px;
+}
+
+.kHorizontalSeparator {
+	border-bottom: 1px #000044 dashed;
+}
+
+/*
+ * The "Console" itself is the actual body of the page in which all of the
+ * content lives.
+ */
+.kConsole {
+	background: #eeeeee;
+	border: 1px #000044 solid;
+	border-radius: 10px;
+	opacity: 0.6;
+
+	position: absolute;
+	margin-left: 5%;
+	margin-right: 5%;
+	min-width: 85%;
+
+	margin-top: 4%;
+	margin-bottom: 5%;
+	min-height: 85%;
+
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+
+	box-shadow: 3px 3px 4px #000;
+}
+
+	.kConsoleHeader > * {
+		margin-right: 30px;
+	}
+
+	.kConsole > div {
+		margin-bottom: 10px;
+	}
