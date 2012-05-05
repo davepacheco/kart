@@ -16,10 +16,11 @@ NPM		 = npm
 #
 # Files
 #
-JS_FILES	:= $(shell find lib -name '*.js')
 JSL_CONF_NODE	 = tools/jsl.node.conf
-JSL_FILES_NODE   = $(JS_FILES)
-JSSTYLE_FILES	 = $(JS_FILES)
+JSL_CONF_WEB	 = tools/jsl.web.conf
+JSL_FILES_NODE  := $(shell find lib -name '*.js')
+JSL_FILES_WEB   := $(shell find www/resources/js -name '*.js')
+JSSTYLE_FILES	:= $(JSL_FILES_NODE) $(JSL_FILES_WEB)
 
 #
 # Repo-specific targets
